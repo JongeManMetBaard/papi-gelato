@@ -102,7 +102,7 @@ def askInConeOrBowl(scoopsOfIceCream):
             if coneOrBowl == "bakje": 
                 global counterBowls
                 counterBowls += 1
-                askTopping(coneOrBowl, scoopsOfIceCream)
+            askTopping(coneOrBowl, scoopsOfIceCream)
 
         else:
             sorry()
